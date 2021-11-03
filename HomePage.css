@@ -1,0 +1,190 @@
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  background-color:red;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: block;
+  font-family:sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: white;
+    text-decoration: underline;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+.top{
+  width:2050px;
+  height:50px;
+}
+.Navigation{
+ float: right;
+}
+.button{
+  padding:10px 40px;
+  background-color:white;
+  border: 0px white;
+  font-size:15px;
+  font-family:sans-serif;
+}
+.button:hover{
+  text-decoration: underline;
+  font-weight:700;
+  cursor:pointer;
+}
+.image{
+  padding:10px 10px;
+  width:  2000px;
+  height: 500px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+*{
+  box-sizing: border-box;
+}
+
+.input-search{
+  height: 40px;
+  width: 40px;
+  border-style: none;
+  padding: 10px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: white;
+  padding-right: 40px;
+  color:#505050;
+  font-family:sans-serif;
+}
+.input-search::placeholder{
+  color:	#505050;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.btn-search{
+  float:right;
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color:black ;
+  background-color:white;
+  pointer-events: painted;
+  border: 5px black;
+}
+.btn-search:focus ~ .input-search{
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:focus{
+  width: 300px;
+  border-radius: 0px;
+  background-color: white;
+
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+.Side-panel{
+  float:right;
+}
+.table{
+  width:300px;
+  text-align:center;
+  border: 1px solid #333;
+  font-size:15px;
+  font-family:sans-serif;
+  
+}
+.Heading{
+  background-color:#C0C0C0;
+}
+.row {
+  display: flex;
+}
+
+.column {
+padding:10px 10px
+}
+.Master-Card,.JCB,.Maestro{
+  width:  80px;
+    height: 60px;
+    object-fit: fit;
+}
+.Solo{
+   width:  60px;
+    height: 60px;
+    object-fit: fit;
+}
+.Visa{
+  width:  100px;
+    height: 50px;
+    object-fit: fit;
+}
+.Facebook-Logo,.Twitter-Logo{
+  width:  90px;
+  height: 60px;
+  float:left;
+  margin-left: 10px
+}
+.Facebook-Link,.Twitter-Link{
+  margin-bottom:100px
+}
+.Main-contents{
+  font-size:20px;
+  font-family:sans-serif;
+  width:1675px;
+}
+.Main-Contents-img1{
+  Width:300px;
+    height:200px;
+}
+.Main-Contents-img2{
+  Width:300px;
+    height:200px;
+  padding:10px;
+}
+.banner{
+  font-size:20px;
+    font-family:sans-serif;
+  height:50 px;
+  text-align:center;
+  font-weight: bold;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
